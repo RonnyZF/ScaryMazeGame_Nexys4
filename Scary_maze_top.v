@@ -34,10 +34,10 @@ module Scary_maze_top(
     input wire miso,
     output wire ss,
     output wire mosi,
-    output wire sclk,
+    output wire sclk
     
-    output wire [6:0] disp_seg_o,
-    output wire [7:0] disp_an_o
+    //output wire [6:0] disp_seg_o,
+    //output wire [7:0] disp_an_o
     //output reg colicion_led
     );
     //Conexiones VGA
@@ -329,10 +329,10 @@ Leds Leds (
 //M�dulo manejo de vidas
 //---------------------------------------------------------------------------------------------
 
-           
+    /*       
 dis_loser (.clk(clk), .reset(reset), .on(disp_out), .an0(disp_an_o[0]), .an1(disp_an_o[1]), .an2(disp_an_o[2]), .an3(disp_an_o[3]),
                          .an4(disp_an_o[4]), .an5(disp_an_o[5]), .an6(disp_an_o[6]), .an7(disp_an_o[7]), .out_disp(disp_seg_o));           
-                  
+                  */
 //---------------------------------------------------------------------------------------------
 //L�gica de control del juego
 //---------------------------------------------------------------------------------------------    
